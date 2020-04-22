@@ -10,10 +10,10 @@ chmod +x virtualhost.sh
 ```bash
 sudo ./virtualhost example.local /path/to/folder/
 
-
 example  sudo ./virtualhost site.com /var/www/html/ 
 
-Create virtualhost to /etc/apache2/sites-available/
+
+This script Create virtualhost to /etc/apache2/sites-available/
 and apache2 reload link to sites-enabled
 ```
 
