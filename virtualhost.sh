@@ -26,4 +26,4 @@ CONTENT="<VirtualHost *:80>\n
 (sudo echo -e $CONTENT > "/etc/apache2/sites-available/${DOMAIN}.conf" && 
 sudo a2ensite "${DOMAIN}.conf" &&
 sudo /etc/init.d/apache2 reload &&
-echo 'VirtualHost has been created! in /etc/apache2/sites-available/${DOMAIN}.conf')
+echo 'VirtualHost has been created! in /etc/apache2/sites-available/')
